@@ -1,16 +1,13 @@
-This code is in form of html shold be written in html formate and css styling in below
-note :---not added media and meta tag
+This code is in form of html shold be written in html formate and css styling  is given below
+NOTE:---not added media and meta tag
 NOTE:- ALL THE HTML AND CSS FILES SHOULD BE IN ONE AND SAME FOLDER AS WELL AS PICTURE THAT U WANT TO UPLODE
+ITS AN EXTERNAL CSSS
 
 
 
 <html>
     <head>
         <title>my web page</title>
-    <!-- <style>
-        
-
-    </style>  -->
     <link rel="stylesheet" href="cssstyle.css">
     </head>
     <body>
