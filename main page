@@ -1,0 +1,181 @@
+this code is in form of html and css styling in below
+note :---not added media and meta tag
+
+
+
+<html>
+    <head>
+        <title>my web page</title>
+    <!-- <style>
+        
+
+    </style>  -->
+    <link rel="stylesheet" href="cssstyle.css">
+    </head>
+    <body>
+        <header>
+            <DIV CLASS="MAIN">
+                <DIV CLASS="LOGO">
+                    <img src="mnbv.jpg">
+                    </DIV>
+                    <div class="pic">
+                        <img src="22.jpg">
+                    </div>
+<UL>               
+ <li><a href="my home2.html">ABOUT ME</a></li>
+ <li><a href="my acadimes.html">MY ACCADEMICS</a></li>
+ <li><a href="hobies.html">MY HOBIES</a></li>
+ <!-- <li><a href="#">MY FANTANCIES</a></li> -->
+ <li><a href="contact.html">My CONTACTS DETAILS</a></li>
+ </ul>
+ </DIV>
+ <div class="title">
+     <h1><u>"WELCOME TO MY WEB"</u></h1>
+
+ </div>
+ <div class="button">
+     <a href="LOCATION.HTML" class="boo">LOCATION OF REVA</a>
+     <a href="reva.html" class="boo">about my university</a>
+</div>
+<!-- <div class="buttons">
+    <a href="#" class="mn">FOR MORE INFORMATION</a>
+
+</div> -->
+<div class="buttond">
+    <input type="checkbox" name="fff"value="sports"> WANT TO EXPLOR MORE
+</div>
+<div class="mnb">
+    <a href="https://www.codecademy.com/learn/learn-css"  class="mn">submit</a>
+
+
+    <input type="submit" value="submit">
+</div>
+<div class="mko">
+    <select name="beanch">
+    <option value="nulll">enter the language</option>
+            <option value="ec">HTML</option>
+            <option value="cs">CSS</option>
+            <option value="civil">JAVA SPRIT</option>
+            <option value="civil">SWIFT</option>
+        </select>
+</div>
+ </header>
+</body>
+</html> 
+
+
+
+css code for main page
+
+
+
+header
+{
+    background-image:url(0.4.jpg);
+    height:100vh ;
+    background-position:center;
+    background-size:cover;
+} 
+UL
+{
+    float: right;
+    list-style-type: none;
+    margin: 25px ;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    background-color: rgb(43, 153, 76);
+    color:rgb(211, 224, 20);
+    padding: 5 20;
+    border: 1px solid rgb(61, 3, 3);
+    transition:0.6S ease ;
+}
+ul li  a:hover{
+    background-color: #fff;
+    color:#000;
+}
+.logo img{
+    float: left;
+    height: auto;
+    width: 150px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.pic img{
+    float:right;
+    height:auto;
+    width:150px;
+}
+.title{
+    color:black;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%)
+
+}
+.button{color:black;
+    position: absolute;
+    padding: 5 20;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+
+    
+}
+.boo{
+border: 2px solid white;
+padding: 10px 30px ;
+color:black;
+text-decoration:none ;
+transition: 0.6% ease;
+}
+.boo:hover{
+    background-color: #fff;
+    color:#000;
+}
+.buttons{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.mn{
+    border: 2px solid white;
+padding: 10px 30px ;
+color:black;
+text-decoration:none ;
+transition: 0.6% ease;
+}
+.mn:hover{
+    background-color: #fff;
+    color:#000;
+}
+.BUTTOND{
+    color:cornsilk;
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.mnb{
+    position: absolute;
+    top:83%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.mko{
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+
+note :--- not added media tag and meta tag
